@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2A790F327876DB000C5EC58 /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A790F227876DB000C5EC58 /* CatalogPresenter.swift */; };
 		A2CDA3622785B49100098EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDA3612785B49100098EA7 /* AppDelegate.swift */; };
 		A2CDA3642785B49100098EA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDA3632785B49100098EA7 /* SceneDelegate.swift */; };
 		A2CDA3662785B49100098EA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDA3652785B49100098EA7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2A790F227876DB000C5EC58 /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
 		A2CDA35E2785B49100098EA7 /* Patterns-Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patterns-Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CDA3612785B49100098EA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2CDA3632785B49100098EA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2A790F427876DB600C5EC58 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				A2A790F227876DB000C5EC58 /* CatalogPresenter.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
 		A2CDA3552785B49100098EA7 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 			children = (
 				A2CDA3612785B49100098EA7 /* AppDelegate.swift */,
 				A2CDA3632785B49100098EA7 /* SceneDelegate.swift */,
+				A2A790F427876DB600C5EC58 /* Catalog */,
 				A2CDA3652785B49100098EA7 /* ViewController.swift */,
 				A2CDA3672785B49100098EA7 /* Main.storyboard */,
 				A2CDA36A2785B49200098EA7 /* Assets.xcassets */,
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A790F327876DB000C5EC58 /* CatalogPresenter.swift in Sources */,
 				A2CDA3662785B49100098EA7 /* ViewController.swift in Sources */,
 				A2CDA3622785B49100098EA7 /* AppDelegate.swift in Sources */,
 				A2CDA3642785B49100098EA7 /* SceneDelegate.swift in Sources */,
