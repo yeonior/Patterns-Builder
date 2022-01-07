@@ -13,6 +13,6 @@ protocol Presenter {
 
 class CatalogPresenter: Presenter {
     
-//    weak var viewController: CatalogViewController?
+    weak var viewController: CatalogViewController?
     var info: String = "Creation a model for a view"
 }
