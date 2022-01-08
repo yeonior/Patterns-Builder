@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A245C442278A0AEB00C29FE8 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A245C441278A0AEB00C29FE8 /* ModuleBuilder.swift */; };
 		A2A790F327876DB000C5EC58 /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A790F227876DB000C5EC58 /* CatalogPresenter.swift */; };
 		A2A790F627876FAC00C5EC58 /* CatalogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A790F527876FAC00C5EC58 /* CatalogInteractor.swift */; };
 		A2CDA3622785B49100098EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDA3612785B49100098EA7 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A245C441278A0AEB00C29FE8 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 		A2A790F227876DB000C5EC58 /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
 		A2A790F527876FAC00C5EC58 /* CatalogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractor.swift; sourceTree = "<group>"; };
 		A2CDA35E2785B49100098EA7 /* Patterns-Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patterns-Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +76,7 @@
 			children = (
 				A2CDA3612785B49100098EA7 /* AppDelegate.swift */,
 				A2CDA3632785B49100098EA7 /* SceneDelegate.swift */,
+				A245C441278A0AEB00C29FE8 /* ModuleBuilder.swift */,
 				A2A790F427876DB600C5EC58 /* Catalog */,
 				A2CDA3652785B49100098EA7 /* ViewController.swift */,
 				A2CDA3672785B49100098EA7 /* Main.storyboard */,
@@ -159,6 +162,7 @@
 				A2A790F327876DB000C5EC58 /* CatalogPresenter.swift in Sources */,
 				A2CDA3662785B49100098EA7 /* ViewController.swift in Sources */,
 				A2CDA3622785B49100098EA7 /* AppDelegate.swift in Sources */,
+				A245C442278A0AEB00C29FE8 /* ModuleBuilder.swift in Sources */,
 				A2CDA3642785B49100098EA7 /* SceneDelegate.swift in Sources */,
 				A2A790F627876FAC00C5EC58 /* CatalogInteractor.swift in Sources */,
 			);
