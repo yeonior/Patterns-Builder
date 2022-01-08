@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A245C442278A0AEB00C29FE8 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A245C441278A0AEB00C29FE8 /* ModuleBuilder.swift */; };
+		A245C444278A0C5800C29FE8 /* CatalogBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A245C443278A0C5800C29FE8 /* CatalogBuilder.swift */; };
 		A2A790F327876DB000C5EC58 /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A790F227876DB000C5EC58 /* CatalogPresenter.swift */; };
 		A2A790F627876FAC00C5EC58 /* CatalogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A790F527876FAC00C5EC58 /* CatalogInteractor.swift */; };
 		A2CDA3622785B49100098EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDA3612785B49100098EA7 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		A245C441278A0AEB00C29FE8 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		A245C443278A0C5800C29FE8 /* CatalogBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogBuilder.swift; sourceTree = "<group>"; };
 		A2A790F227876DB000C5EC58 /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
 		A2A790F527876FAC00C5EC58 /* CatalogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractor.swift; sourceTree = "<group>"; };
 		A2CDA35E2785B49100098EA7 /* Patterns-Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patterns-Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +50,7 @@
 		A2A790F427876DB600C5EC58 /* Catalog */ = {
 			isa = PBXGroup;
 			children = (
+				A245C443278A0C5800C29FE8 /* CatalogBuilder.swift */,
 				A2A790F227876DB000C5EC58 /* CatalogPresenter.swift */,
 				A2A790F527876FAC00C5EC58 /* CatalogInteractor.swift */,
 				A2DB0D3D278853DD00E13B5E /* CatalogViewController.swift */,
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DB0D3E278853DD00E13B5E /* CatalogViewController.swift in Sources */,
+				A245C444278A0C5800C29FE8 /* CatalogBuilder.swift in Sources */,
 				A2A790F327876DB000C5EC58 /* CatalogPresenter.swift in Sources */,
 				A2CDA3662785B49100098EA7 /* ViewController.swift in Sources */,
 				A2CDA3622785B49100098EA7 /* AppDelegate.swift in Sources */,
