@@ -8,12 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    @IBAction func pressButtonDidTapped(_ sender: Any) {
+        let controller = CatalogBuilder().setTitle("Catalog").build()
+        present(controller, animated: true, completion: nil)
     }
-
-
 }
 

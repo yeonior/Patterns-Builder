@@ -47,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A245C445278A1A5000C29FE8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A2CDA3612785B49100098EA7 /* AppDelegate.swift */,
+				A2CDA3632785B49100098EA7 /* SceneDelegate.swift */,
+				A245C441278A0AEB00C29FE8 /* ModuleBuilder.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		A2A790F427876DB600C5EC58 /* Catalog */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +87,7 @@
 		A2CDA3602785B49100098EA7 /* Patterns-Builder */ = {
 			isa = PBXGroup;
 			children = (
-				A2CDA3612785B49100098EA7 /* AppDelegate.swift */,
-				A2CDA3632785B49100098EA7 /* SceneDelegate.swift */,
-				A245C441278A0AEB00C29FE8 /* ModuleBuilder.swift */,
+				A245C445278A1A5000C29FE8 /* Sources */,
 				A2A790F427876DB600C5EC58 /* Catalog */,
 				A2CDA3652785B49100098EA7 /* ViewController.swift */,
 				A2CDA3672785B49100098EA7 /* Main.storyboard */,
